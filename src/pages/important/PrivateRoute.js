@@ -9,7 +9,7 @@ export default function PrivateRoute({ Component }) {
     console.log(isAuthenticated)
 
     if (!isAuthenticated)
-        return <Login />
+        return  <Login />
 
     return (
         <Component />
